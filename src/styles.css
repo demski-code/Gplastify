@@ -273,6 +273,10 @@ nav a:hover,
   background-image: linear-gradient(#fff 0 33.333%, #1f5fbf 33.333% 66.666%, #d52b1e 66.666%);
 }
 
+.flag-de {
+  background-image: linear-gradient(#000 0 33.333%, #dd0000 33.333% 66.666%, #ffce00 66.666%);
+}
+
 .flag-ae {
   background-image: linear-gradient(90deg, #ef3340 0 25%, transparent 25%), linear-gradient(#009739 0 33.333%, #fff 33.333% 66.666%, #000 66.666%);
 }
@@ -313,8 +317,8 @@ nav a:hover,
 .hero h1 {
   margin: 0;
   max-width: 840px;
-  font-size: clamp(46px, 7vw, 112px);
-  line-height: 0.92;
+  font-size: clamp(42px, 6.2vw, 96px);
+  line-height: 1.08;
   font-weight: 950;
   text-transform: uppercase;
   color: #fff;
@@ -375,8 +379,8 @@ nav a:hover,
 .contact h2 {
   margin: 0;
   max-width: 720px;
-  font-size: clamp(34px, 4vw, 62px);
-  line-height: 1;
+  font-size: clamp(32px, 3.5vw, 54px);
+  line-height: 1.14;
   letter-spacing: 0;
 }
 
@@ -536,8 +540,8 @@ nav a:hover,
 
 .product-copy h2 {
   margin: 0;
-  font-size: clamp(42px, 4.6vw, 76px);
-  line-height: 0.94;
+  font-size: clamp(38px, 4vw, 66px);
+  line-height: 1.08;
   text-transform: uppercase;
 }
 
@@ -607,7 +611,8 @@ nav a:hover,
 
 .section-title h2 {
   margin: 0;
-  font-size: clamp(28px, 3vw, 42px);
+  font-size: clamp(26px, 2.6vw, 38px);
+  line-height: 1.16;
   text-transform: uppercase;
 }
 
@@ -1035,7 +1040,8 @@ nav a:hover,
   }
 
   .hero h1 {
-    font-size: clamp(46px, 16vw, 78px);
+    font-size: clamp(38px, 13vw, 62px);
+    line-height: 1.1;
   }
 
   .about,
@@ -1146,8 +1152,8 @@ nav,
 
 .hero h1 {
   max-width: 11ch;
-  font-size: clamp(42px, 15vw, 68px);
-  line-height: 0.94;
+  font-size: clamp(36px, 12.5vw, 56px);
+  line-height: 1.1;
 }
 
 .hero p:not(.eyebrow) {
@@ -1194,7 +1200,8 @@ nav,
 .section-copy h2,
 .contact h2,
 .product-copy h2 {
-  font-size: clamp(32px, 10vw, 48px);
+  font-size: clamp(30px, 8.8vw, 42px);
+  line-height: 1.14;
 }
 
 .stats,
@@ -1299,7 +1306,8 @@ nav,
 
   .hero h1 {
     max-width: 9.5ch;
-    font-size: clamp(62px, 9vw, 104px);
+    font-size: clamp(52px, 7.4vw, 88px);
+    line-height: 1.08;
   }
 
   .primary-link,
@@ -1382,7 +1390,8 @@ nav,
 
   .hero h1 {
     max-width: 840px;
-    font-size: clamp(46px, 7vw, 112px);
+    font-size: clamp(42px, 6.2vw, 96px);
+    line-height: 1.08;
   }
 
   .about {
@@ -1569,6 +1578,11 @@ nav a:hover::after,
   opacity: 1;
   transform: translateY(0);
   transition: opacity 620ms ease, transform 620ms ease;
+}
+
+.reveal.is-visible .stagger > * {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .stagger > *:nth-child(2).is-visible {

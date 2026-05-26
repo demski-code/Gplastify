@@ -50,6 +50,7 @@ import application6 from '../Images/applications6.png';
 
 const languages = [
   { code: 'en', flagClass: 'flag-gb', label: 'English' },
+  { code: 'de', flagClass: 'flag-de', label: 'German' },
   { code: 'ru', flagClass: 'flag-ru', label: 'Russian' },
   { code: 'ar', flagClass: 'flag-ae', label: 'Arabic' },
   { code: 'ka', flagClass: 'flag-ge', label: 'Georgian' },
@@ -110,15 +111,69 @@ const copy = {
       ['Consistent Performance', 'Batch-to-batch stability ensured'],
     ],
   },
+  de: {
+    nav: ['Über uns', 'Produkt', 'Anwendungen', 'Spezifikationen'],
+    contact: 'Kontakt',
+    eyebrow: 'Hochleistungs-Zusatzmittel für Beton',
+    heroTitle: 'Stärker bauen. Besser fließen.',
+    heroBody: 'HP Concrete Flow 40 ermöglicht ein niedriges Wasser-Zement-Verhältnis, hohe Festigkeit, lange Verarbeitbarkeit und dichten, dauerhaften Beton für Transportbeton und Fertigteile.',
+    productDetails: 'Produktdetails ansehen',
+    about: 'Über uns',
+    aboutTitle: 'Moderne Produktionsunterstützung für Hochleistungsbeton.',
+    aboutButton: 'Kontakt aufnehmen',
+    formTitle: 'Anfrage senden',
+    phone: 'Telefonnummer',
+    email: 'E-Mail-Adresse',
+    message: 'Projektdetails',
+    send: 'Anfrage senden',
+    productKicker: 'Unser Produkt',
+    productTitle: 'HP Concrete',
+    productAccent: 'Flow 40',
+    productBody: 'Fortschrittliche Polycarboxylat-Ether-Technologie dispergiert Zementpartikel effektiv und verbessert Fließfähigkeit, Festigkeitsentwicklung, Oberflächenqualität, Dichte und Produktionseffizienz.',
+    specsButton: 'Technische Spezifikationen',
+    applicationsTitle: 'Anwendungen',
+    whyTitle: 'Warum',
+    whyAccent: 'Gplastify?',
+    specsTitle: 'Technische Spezifikationen',
+    pdfTitle: 'Produkt-PDF',
+    pdfBody: 'Weitere Informationen zu HP Concrete Flow 40',
+    pdfAction: 'PDF öffnen',
+    quickLinks: 'Schnelllinks',
+    footerText: 'Hochleistungs-Hyperplastifizierer für stärkeren, dichteren und besser verarbeitbaren Beton.',
+    footerContactText: 'Pilotlieferungen, Testchargen, technische Unterstützung und Händlerchancen.',
+    copyright: '(c) 2026 LLC Gplastify. Alle Rechte vorbehalten.',
+    aboutBody: [
+      'LLC Gplastify konzentriert sich auf praktische technische Leistung, lokale Produktion und direkte technische Unterstützung für Betonhersteller. Wir helfen Kunden, die Leistung von Zusatzmitteln durch Labortests, Versuche vor Ort und Rezepturanpassung an lokale Rohstoffe zu validieren.',
+      'Unsere Strategie ist einfach: konstante Qualität, schnelle Logistik, effizienter Service und langfristige industrielle Partnerschaften, die auf messbaren Ergebnissen basieren.',
+    ],
+    stats: ['Wasserreduktion', 'Haltbarkeit', 'PCE-Technologie'],
+    advantages: ['Wasserreduktion bis zu 40%', 'Ausgezeichnete Verarbeitbarkeit', 'Verbesserte Frühfestigkeit', 'Erhöhte Dauerhaftigkeit', 'Bessere Rheologie und Fließfähigkeit', 'Weniger Entmischung und Bluten'],
+    applications: ['Transportbeton', 'Hochhausbau', 'Fertigteil- und Spannbeton', 'Industrieböden', 'Hydraulische Bauwerke', 'Selbstverdichtender Beton'],
+    reasons: [
+      ['Fortschrittliche PCE-Technologie', 'Hocheffiziente Polymerdispersion für bessere Leistung.'],
+      ['Stabile Qualität', 'Strenge mehrstufige Laborkontrolle.'],
+      ['Technische Unterstützung', 'Ingenieurtechnische Begleitung für Tests, Chargierung und Umsetzung.'],
+      ['Schnelle Logistik', 'Lokale Produktionsorientierung für zuverlässigen Kundenservice.'],
+      ['Flexible Politik', 'Kommerzielle Bedingungen passend zu Projekt und Volumen.'],
+      ['Langfristige Partnerschaft', 'Auf industrielle Zusammenarbeit statt einmaliger Lieferung ausgelegt.'],
+    ],
+    specs: ['Aussehen', 'Dichte bei 20 Grad C', 'pH', 'Feststoffgehalt', 'Chloridgehalt', 'Alkaligehalt (Na2O)'],
+    quality: [
+      ['ASTM C494', 'Type F / Type G'],
+      ['EN 934-2', 'Superplastifizierer / HRWR'],
+      ['Qualität gesichert', 'Mehrstufige Laborkontrolle'],
+      ['Konstante Leistung', 'Stabilität von Charge zu Charge'],
+    ],
+  },
   ru: {
     nav: ['О нас', 'Продукт', 'Применение', 'Спецификации'],
     contact: 'Контакты',
     eyebrow: 'Высокоэффективные добавки для бетона',
-    heroTitle: 'Стройте прочнее. Лейте лучше.',
-    heroBody: 'HP Concrete Flow 40 обеспечивает низкое водоцементное отношение, высокую прочность, длительное сохранение удобоукладываемости и плотный долговечный бетон.',
+    heroTitle: 'ТЕХНОЛОГИЯ ПРОЧНОСТИ В КАЖДОЙ КАПЛЕ',
+    heroBody: 'HP Concrete Flow 40 обеспечивает низкое отношение воды к цементу, высокую плотность, прочность и долговечность.',
     productDetails: 'Детали продукта',
     about: 'О нас',
-    aboutTitle: 'Современная производственная поддержка для высокопрочного бетона.',
+    aboutTitle: 'Современная химическая поддержка для кратного увеличения прочности бетона.',
     aboutButton: 'Связаться',
     formTitle: 'Отправить запрос',
     phone: 'Номер телефона',
@@ -128,7 +183,7 @@ const copy = {
     productKicker: 'Наш продукт',
     productTitle: 'HP Concrete',
     productAccent: 'Flow 40',
-    productBody: 'Технология Polycarboxylate Ether эффективно диспергирует цементные частицы, улучшая текучесть, набор прочности, качество поверхности, плотность и эффективность производства.',
+    productBody: 'Технология Polycarboxylate Ether эффективно распределяет цементные частицы, улучшая набор прочности, итоговое качество поверхности, плотность и эффективность налива.',
     specsButton: 'Технические характеристики',
     applicationsTitle: 'Применение',
     whyTitle: 'Почему выбирают',
@@ -138,11 +193,11 @@ const copy = {
     pdfBody: 'Подробнее о HP Concrete Flow 40',
     pdfAction: 'Открыть PDF',
     quickLinks: 'Быстрые ссылки',
-    footerText: 'Высокоэффективные гиперпластификаторы для более прочного, плотного и удобоукладываемого бетона.',
+    footerText: 'Высокоэффективные гиперпластификаторы для получения более прочного, удобного в укладке бетона.',
     footerContactText: 'Пробные партии, пилотные поставки, техническая поддержка и дилерские возможности.',
     copyright: '(c) 2026 LLC Gplastify. Все права защищены.',
     aboutBody: [
-      'LLC Gplastify ориентирована на практические технические результаты, локализованное производство и прямую инженерную поддержку производителей бетона.',
+      'Компания Gplastify ориентирована на локализованное производство, полную поддержку производителей бетона и высокое техническое качество продукта',
       'Наша стратегия проста: стабильное качество, быстрая логистика, эффективный сервис и долгосрочные промышленные партнерства.',
     ],
     stats: ['Снижение воды', 'Срок хранения', 'Технология PCE'],
@@ -222,8 +277,8 @@ const copy = {
     nav: ['ჩვენ შესახებ', 'პროდუქტი', 'გამოყენება', 'სპეციფიკაციები'],
     contact: 'კონტაქტი',
     eyebrow: 'მაღალი ეფექტიანობის დანამატები ბეტონისთვის',
-    heroTitle: 'ააშენე მტკიცედ. მიიღე უკეთესი დენადობა.',
-    heroBody: 'HP Concrete Flow 40 უზრუნველყოფს დაბალ წყალ-ცემენტის თანაფარდობას, მაღალ სიმტკიცეს, სამუშაოუნარიანობის შენარჩუნებას და გამძლე, მკვრივ ბეტონს.',
+    heroTitle: 'მეტი მოქნილობა. მეტი სიმტკიცე. მეტი გამძლეობა.',
+    heroBody: 'HP Concrete Flow 40 უზრუნველყოფს წყალ-ცემენტის თანაფარდობის შემცირებას, ბეტონის მაღალი სიმტკიცის მიღწევას, სამუშაოუნარიანობის ხანგრძლივ შენარჩუნებას და მკვრივი, გამძლე სტრუქტურის ფორმირებას.',
     productDetails: 'პროდუქტის დეტალები',
     about: 'ჩვენ შესახებ',
     aboutTitle: 'თანამედროვე საწარმოო მხარდაჭერა მაღალი ხარისხის ბეტონისთვის.',
@@ -236,7 +291,7 @@ const copy = {
     productKicker: 'ჩვენი პროდუქტი',
     productTitle: 'HP Concrete',
     productAccent: 'Flow 40',
-    productBody: 'Polycarboxylate Ether ტექნოლოგია ეფექტურად ანაწილებს ცემენტის ნაწილაკებს და აუმჯობესებს დენადობას, სიმტკიცეს, ზედაპირის ხარისხს, სიმკვრივეს და წარმოების ეფექტიანობას.',
+    productBody: 'Polycarboxylate Ether ტექნოლოგია ეფექტურად ანაწილებს ცემენტის ნაწილაკებს და აუმჯობესებს ბეტონის მობილობას, სიმტკიცეს, ზედაპირის ხარისხს, სიმკვრივეს და წარმოების ეფექტიანობას.',
     specsButton: 'ტექნიკური მახასიათებლები',
     applicationsTitle: 'გამოყენება',
     whyTitle: 'რატომ',
@@ -251,7 +306,7 @@ const copy = {
     copyright: '(c) 2026 LLC Gplastify. ყველა უფლება დაცულია.',
     aboutBody: [
       'LLC Gplastify ორიენტირებულია პრაქტიკულ ტექნიკურ შედეგებზე, ლოკალურ წარმოებასა და ბეტონის მწარმოებლების პირდაპირ საინჟინრო მხარდაჭერაზე.',
-      'ჩვენი სტრატეგია მარტივია: სტაბილური ხარისხი, სწრაფი ლოგისტიკა, ეფექტიანი მომსახურება და გრძელვადიანი ინდუსტრიული პარტნიორობა.',
+      'ჩვენი სტრატეგია მარტივია: სტაბილური ხარისხი, სწრაფი ლოჯისტიკა, ეფექტიანი მომსახურება და გრძელვადიანი ინდუსტრიული პარტნიორობა.',
     ],
     stats: ['წყლის შემცირება', 'შენახვის ვადა', 'PCE ტექნოლოგია'],
     advantages: ['წყლის შემცირება 40%-მდე', 'სამუშაოუნარიანობის შესანიშნავი შენარჩუნება', 'ადრეული სიმტკიცის გაუმჯობესება', 'გამძლეობის ზრდა', 'უკეთესი რეოლოგია და დენადობა', 'ნაკლები სეგრეგაცია და გამოყოფა'],
@@ -413,8 +468,8 @@ function About({ text }) {
       <div className="section-copy reveal">
         <p className="kicker">{text.about}</p>
         <h2>{text.aboutTitle}</h2>
-        {text.aboutBody.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
+        {text.aboutBody.map((paragraph, index) => (
+          <p key={`about-paragraph-${index}`}>{paragraph}</p>
         ))}
         <a className="dark-button" href="#contact">
           {text.aboutButton} <ArrowRight size={18} />
@@ -453,7 +508,7 @@ function Product({ text, theme }) {
           {text.advantages.map((item, index) => {
             const Icon = advantageIcons[index];
             return (
-            <article className="feature-card" key={item}>
+            <article className="feature-card" key={`advantage-${index}`}>
               <Icon size={28} />
               <span>{item}</span>
             </article>
@@ -471,7 +526,7 @@ function Applications({ text }) {
       <SectionTitle title={text.applicationsTitle} />
       <div className="application-row stagger">
         {applications.map(({ icon: Icon, image }, index) => (
-          <article className="application-card" key={text.applications[index]}>
+          <article className="application-card" key={`application-${index}`}>
             <img src={image} alt="" />
             <div>
               <Icon size={28} />
@@ -492,7 +547,7 @@ function WhyChoose({ text }) {
         {text.reasons.map(([title, body], index) => {
           const Icon = reasonIcons[index];
           return (
-          <article className="reason" key={title}>
+          <article className="reason" key={`reason-${index}`}>
             <Icon size={36} />
             <h3>{title}</h3>
             <p>{body}</p>
@@ -512,14 +567,14 @@ function Specs({ text }) {
         <table className="spec-table">
           <tbody>
             {specs.map(([, value], index) => (
-              <tr key={text.specs[index]}>
+              <tr key={`spec-${index}`}>
                 <th>{text.specs[index]}</th>
                 <td>{value}</td>
               </tr>
             ))}
           </tbody>
         </table>
-        <a className="beaker-card pdf-card" href="/HP-Concrete-Flow-40.pdf" target="_blank" rel="noreferrer">
+        <a className="beaker-card pdf-card" href="/Gplastify123_logo_corrected.pdf" target="_blank" rel="noreferrer">
           <FileText size={88} />
           <strong>{text.pdfTitle}</strong>
           <span>{text.pdfBody}</span>
@@ -529,7 +584,7 @@ function Specs({ text }) {
           {text.quality.map(([title, body], index) => {
             const Icon = qualityIcons[index];
             return (
-            <article key={title}>
+            <article key={`quality-${index}`}>
               <Icon size={30} />
               <div>
                 <h3>{title}</h3>
@@ -636,3 +691,9 @@ function App() {
 }
 
 createRoot(document.getElementById('root')).render(<App />);
+
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
